@@ -171,8 +171,8 @@
 
 #if ENABLED(CR10_STOCKDISPLAY)
   #define BEEPER_PIN                       P1_31
-  #define BTN_EN1                          P3_25    //Reverse for correct spin dir
-  #define BTN_EN2                          P3_26    //Reverse for correct spin dir
+  #define BTN_EN1                          P3_26
+  #define BTN_EN2                          P3_25
   #define BTN_ENC                          P1_30
   #define LCD_PINS_RS                      P0_16
   #define LCD_PINS_ENABLE                  P0_18
