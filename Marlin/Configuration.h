@@ -136,7 +136,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
-#define MACHINE_UUID "b4b32f6f-79ef-4391-8e8f-a7ef4b6e02c8"
+#define MACHINE_UUID "abe4f322-c7e3-4123-9685-bbe7c18914c9"
 
 // @section extruder
 
@@ -482,7 +482,7 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // Creality Ender-3
+  // Creality Ender-5 Plus
   #define DEFAULT_Kp 21.73
   #define DEFAULT_Ki 1.54
   #define DEFAULT_Kd 76.55
@@ -966,7 +966,9 @@
  */
 //#define NOZZLE_TO_PROBE_OFFSET { -44, -14, -4.61 }
 // #define NOZZLE_TO_PROBE_OFFSET { -44, -14, -4.65 }
-#define NOZZLE_TO_PROBE_OFFSET { -44, -9, -5.72 }
+// #define NOZZLE_TO_PROBE_OFFSET { -44, -9, -5.72 }    //E5P Stock Normal vals
+#define NOZZLE_TO_PROBE_OFFSET { -45.5, -10.25, -5.72 } //E5P Measured on machine, stock mounting
+
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 25
