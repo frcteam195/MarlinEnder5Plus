@@ -966,8 +966,8 @@
  */
 //#define NOZZLE_TO_PROBE_OFFSET { -44, -14, -4.61 }
 // #define NOZZLE_TO_PROBE_OFFSET { -44, -14, -4.65 }
-// #define NOZZLE_TO_PROBE_OFFSET { -44, -9, -5.72 }    //E5P Stock Normal vals
-#define NOZZLE_TO_PROBE_OFFSET { -45.5, -10.25, -5.72 } //E5P Measured on machine, stock mounting
+// #define NOZZLE_TO_PROBE_OFFSET { -44, -9, -5.72 }    //E5P Stock Normal vals, microswiss
+#define NOZZLE_TO_PROBE_OFFSET { -45.5, -10.25, -5.14 } //E5P Measured on machine, stock mounting
 
 
 // Certain types of probes need to stay away from edges
