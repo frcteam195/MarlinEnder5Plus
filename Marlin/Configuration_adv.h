@@ -2077,7 +2077,11 @@
   #if AXIS_IS_TMC(Z)
     #define Z_CURRENT       1000
     #define Z_CURRENT_HOME  (Z_CURRENT / 4)
-    #define Z_MICROSTEPS     64
+    #if ENABLED(ENDER5P_NEW_LEAD_SCREW)
+        #define Z_MICROSTEPS     32
+    #else
+        #define Z_MICROSTEPS     64
+    #endif
     #define Z_RSENSE          0.11
     #define Z_CHAIN_POS      -1
   #endif

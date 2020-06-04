@@ -738,7 +738,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 1600, 372 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 320, 320, 1600, 520 }
+#define ENDER5P_NEW_LEAD_SCREW
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -967,7 +968,7 @@
 //#define NOZZLE_TO_PROBE_OFFSET { -44, -14, -4.61 }
 // #define NOZZLE_TO_PROBE_OFFSET { -44, -14, -4.65 }
 // #define NOZZLE_TO_PROBE_OFFSET { -44, -9, -5.72 }    //E5P Stock Normal vals, microswiss
-#define NOZZLE_TO_PROBE_OFFSET { -45.5, -10.25, -5.14 } //E5P Measured on machine, stock mounting
+#define NOZZLE_TO_PROBE_OFFSET { -45.5, -10.25, -2.87 } //E5P Measured on machine, stock mounting
 
 
 // Certain types of probes need to stay away from edges
@@ -1723,7 +1724,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-#define REVERSE_ENCODER_DIRECTION
+//#define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
